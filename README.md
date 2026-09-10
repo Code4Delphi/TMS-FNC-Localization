@@ -25,6 +25,25 @@ Ele funciona para VCL, FMX e TMS WEB Core a partir de um único núcleo comparti
 <img width="524" height="124" alt="VCL-FMX-Web-FNC" src="https://github.com/user-attachments/assets/17b23899-0e26-4901-810e-f9a03e38deae" />
 
 ## Screenshots
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/4168daaf-e1b7-4487-ae5b-f19abe6abdc1" />
+
+- Descubra e colete automaticamente conteúdo de aplicativos passível de tradução:
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/f7e46b5b-5f2c-4da9-93b8-e3db6ee18b7b" />
+
+<br><br>
+
+- Gerencie as traduções em um único editor com assistência opcional de IA:
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/0421795f-1324-49d9-a32e-8b3f20753cab" />
+
+<br><br>
+
+- Troque a linguagem da aplicação instantaneamente em tempo de execução:
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/8d40345c-faef-4a97-912c-94db46b4abdb" />
+
+<br><br>
+
+- Mantenha as traduções atualizadas conforme sua aplicação evolui:
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/523a48e5-450b-4a31-b0db-32f0cd16943b" />
 
 
 ## 📞 Contatos
