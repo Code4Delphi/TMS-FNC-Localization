@@ -1,14 +1,14 @@
 program FNCLocalizationBasic;
 
 uses
-  Vcl.Forms,
-  Main.View in 'Src\Main.View.pas' {Form1};
+  System.StartUpCopy,
+  FMX.Forms,
+  Main.View in 'Src\Main.View.pas' {MainView};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TMainView, MainView);
   Application.Run;
 end.
