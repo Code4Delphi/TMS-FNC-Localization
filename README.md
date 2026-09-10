@@ -45,6 +45,11 @@ Ele funciona para VCL, FMX e TMS WEB Core a partir de um único núcleo comparti
 - Mantenha as traduções atualizadas conforme sua aplicação evolui:
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/523a48e5-450b-4a31-b0db-32f0cd16943b" />
 
+<br><br>
+
+- Validação de tradução incluída
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/2c4e562a-2849-4c9b-bc48-fe6c54b03615" />
+
 
 ## 📞 Contatos
 [![Telegram](https://img.shields.io/badge/Telegram-Join-blue?logo=telegram)](https://t.me/Code4Delphi)
