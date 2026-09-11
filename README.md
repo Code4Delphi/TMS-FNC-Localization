@@ -17,7 +17,7 @@ Ele funciona para VCL, FMX e TMS WEB Core a partir de um único núcleo comparti
 |--|--|--|
 
 ## Vídeos de demonstração
-- Em breve
+- [Traduza suas aplicações Delphi com Facilidade | FNC Localization | #028](https://www.youtube.com/shorts/jM6oKGmOpso)
 
 <br>
 
