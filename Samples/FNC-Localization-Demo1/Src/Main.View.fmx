@@ -2,9 +2,9 @@ object MainView: TMainView
   Left = 0
   Top = 0
   Caption = 'FNC Localization - Basic'
-  ClientHeight = 488
-  ClientWidth = 426
-  Position = ScreenCenter
+  ClientHeight = 530
+  ClientWidth = 590
+  Position = Designed
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -12,8 +12,8 @@ object MainView: TMainView
   DesignerMasterStyle = 0
   object pnBack: TPanel
     Align = Client
-    Size.Width = 426.000000000000000000
-    Size.Height = 488.000000000000000000
+    Size.Width = 590.000000000000000000
+    Size.Height = 530.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 4
     object lbWelcome: TLabel
@@ -31,7 +31,6 @@ object MainView: TMainView
         TabOrder = 4
         Text = 'Register customer'
         TextSettings.Trimming = None
-        OnClick = btnRegisterCustomerClick
       end
     end
     object Button1: TButton
@@ -76,13 +75,23 @@ object MainView: TMainView
       Size.Width = 26.000000000000000000
       Size.Height = 26.000000000000000000
       Size.PlatformDefault = False
-      Position.X = 326.000000000000000000
-      Position.Y = 400.000000000000000000
+      Position.X = 230.000000000000000000
+      Position.Y = 424.000000000000000000
+    end
+    object ckPersistLanguageSelection: TCheckBox
+      Position.X = 44.000000000000000000
+      Position.Y = 254.000000000000000000
+      Size.Width = 245.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      Text = 'Persist Language Selection on startup'
+      OnChange = ckPersistLanguageSelectionChange
     end
   end
   object MainMenu1: TMainMenu
-    Left = 328
-    Top = 48
+    Left = 248
+    Top = 24
     object MenuItem1: TMenuItem
       Text = 'Registrations'
       object MenuItem2: TMenuItem
@@ -97,13 +106,14 @@ object MainView: TMainView
   end
   object TMSFNCLocalizationCollector1: TTMSFNCLocalizationCollector
     LocalizationFolder = '.'
-    Left = 328
-    Top = 248
+    Left = 232
+    Top = 296
   end
   object TMSFNCLocalizationLocalizer1: TTMSFNCLocalizationLocalizer
     AcceptedStatuses = [lstApproved]
     LocalizationFolder = '.'
-    Left = 328
-    Top = 320
+    PersistLanguageSelection = False
+    Left = 232
+    Top = 360
   end
 end

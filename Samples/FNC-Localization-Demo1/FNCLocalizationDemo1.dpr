@@ -1,4 +1,4 @@
-program FNCLocalizationBasic;
+program FNCLocalizationDemo1;
 
 uses
   System.StartUpCopy,
