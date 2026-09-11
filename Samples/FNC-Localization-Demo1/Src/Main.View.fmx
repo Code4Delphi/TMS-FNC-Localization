@@ -33,7 +33,7 @@ object MainView: TMainView
         TextSettings.Trimming = None
       end
     end
-    object Button1: TButton
+    object btnSetToBR: TButton
       Cursor = crHandPoint
       Position.X = 43.000000000000000000
       Position.Y = 112.000000000000000000
@@ -41,9 +41,9 @@ object MainView: TMainView
       Size.Height = 22.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 2
-      Text = 'Setar para pt-BR'
+      Text = 'Set to pt-BR'
       TextSettings.Trimming = None
-      OnClick = Button1Click
+      OnClick = btnSetToBRClick
     end
     object TMSFNCLocalizationComboBox1: TTMSFNCLocalizationComboBox
       Position.X = 43.000000000000000000
@@ -75,18 +75,8 @@ object MainView: TMainView
       Size.Width = 26.000000000000000000
       Size.Height = 26.000000000000000000
       Size.PlatformDefault = False
-      Position.X = 230.000000000000000000
-      Position.Y = 424.000000000000000000
-    end
-    object ckPersistLanguageSelection: TCheckBox
-      Position.X = 44.000000000000000000
-      Position.Y = 254.000000000000000000
-      Size.Width = 245.000000000000000000
-      Size.Height = 19.000000000000000000
-      Size.PlatformDefault = False
-      TabOrder = 9
-      Text = 'Persist Language Selection on startup'
-      OnChange = ckPersistLanguageSelectionChange
+      Position.X = 126.000000000000000000
+      Position.Y = 440.000000000000000000
     end
   end
   object MainMenu1: TMainMenu
@@ -106,14 +96,13 @@ object MainView: TMainView
   end
   object TMSFNCLocalizationCollector1: TTMSFNCLocalizationCollector
     LocalizationFolder = '.'
-    Left = 232
-    Top = 296
+    Left = 128
+    Top = 312
   end
   object TMSFNCLocalizationLocalizer1: TTMSFNCLocalizationLocalizer
     AcceptedStatuses = [lstApproved]
     LocalizationFolder = '.'
-    PersistLanguageSelection = False
-    Left = 232
-    Top = 360
+    Left = 128
+    Top = 368
   end
 end

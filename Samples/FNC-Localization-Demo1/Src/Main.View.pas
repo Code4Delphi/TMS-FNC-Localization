@@ -34,16 +34,14 @@ type
     pnBack: TPanel;
     lbWelcome: TLabel;
     btnRegisterCustomer: TButton;
-    Button1: TButton;
+    btnSetToBR: TButton;
     TMSFNCLocalizationComboBox1: TTMSFNCLocalizationComboBox;
     btnOpenEditor: TButton;
     lbSelectLanguage: TLabel;
     TMSFNCLocalizationEditor1: TTMSFNCLocalizationEditor;
-    ckPersistLanguageSelection: TCheckBox;
     procedure FormCreate(Sender: TObject);
-    procedure Button1Click(Sender: TObject);
+    procedure btnSetToBRClick(Sender: TObject);
     procedure btnOpenEditorClick(Sender: TObject);
-    procedure ckPersistLanguageSelectionChange(Sender: TObject);
   private
 
   public
@@ -62,14 +60,9 @@ begin
   TMSFNCLocalizationLocalizer1.PerformLocalization;
 end;
 
-procedure TMainView.Button1Click(Sender: TObject);
+procedure TMainView.btnSetToBRClick(Sender: TObject);
 begin
   TMSFNCLocalizationLocalizer1.TrySetLocale('pt-BR');
-end;
-
-procedure TMainView.ckPersistLanguageSelectionChange(Sender: TObject);
-begin
-  TMSFNCLocalizationLocalizer1.PersistLanguageSelection := ckPersistLanguageSelection.IsChecked;
 end;
 
 procedure TMainView.btnOpenEditorClick(Sender: TObject);
