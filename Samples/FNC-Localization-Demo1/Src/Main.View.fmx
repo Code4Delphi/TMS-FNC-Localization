@@ -3,7 +3,7 @@ object MainView: TMainView
   Top = 0
   Caption = 'FNC Localization - Basic'
   ClientHeight = 530
-  ClientWidth = 590
+  ClientWidth = 575
   Position = Designed
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -12,7 +12,7 @@ object MainView: TMainView
   DesignerMasterStyle = 0
   object pnBack: TPanel
     Align = Client
-    Size.Width = 590.000000000000000000
+    Size.Width = 575.000000000000000000
     Size.Height = 530.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 4
