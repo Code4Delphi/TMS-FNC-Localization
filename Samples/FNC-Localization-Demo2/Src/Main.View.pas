@@ -21,7 +21,7 @@ uses
   FMX.TMSFNCLocalizationComboBox,
   FMX.Menus,
   FMX.TMSFNCCustomComponent,
-  FMX.TMSFNCLocalizationEditor;
+  FMX.TMSFNCLocalizationEditor, TMS.TMSFNCLocalizationStringCatalog;
 
 type
   TMainView = class(TForm)
@@ -39,9 +39,12 @@ type
     btnOpenEditor: TButton;
     lbSelectLanguage: TLabel;
     TMSFNCLocalizationEditor1: TTMSFNCLocalizationEditor;
+    TMSFNCLocalizationStringCatalog1: TTMSFNCLocalizationStringCatalog;
+    btnShowStrCatalog: TButton;
     procedure FormCreate(Sender: TObject);
     procedure btnSetToBRClick(Sender: TObject);
     procedure btnOpenEditorClick(Sender: TObject);
+    procedure btnShowStrCatalogClick(Sender: TObject);
   private
 
   public
@@ -68,6 +71,11 @@ end;
 procedure TMainView.btnOpenEditorClick(Sender: TObject);
 begin
   TMSFNCLocalizationEditor1.Execute;
+end;
+
+procedure TMainView.btnShowStrCatalogClick(Sender: TObject);
+begin
+  ShowMessage(TMSFNCLocalizationStringCatalog1.GetByName('msgConfirmDeletion'));
 end;
 
 end.

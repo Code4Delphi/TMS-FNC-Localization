@@ -78,6 +78,17 @@ object MainView: TMainView
       Position.X = 126.000000000000000000
       Position.Y = 440.000000000000000000
     end
+    object btnShowStrCatalog: TButton
+      Position.X = 248.000000000000000000
+      Position.Y = 224.000000000000000000
+      Size.Width = 281.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      Text = 'Display catalog message - Deletion'
+      TextSettings.Trimming = None
+      OnClick = btnShowStrCatalogClick
+    end
   end
   object MainMenu1: TMainMenu
     Left = 248
@@ -104,5 +115,14 @@ object MainView: TMainView
     LocalizationFolder = '.'
     Left = 128
     Top = 368
+  end
+  object TMSFNCLocalizationStringCatalog1: TTMSFNCLocalizationStringCatalog
+    Strings = <
+      item
+        Name = 'msgConfirmDeletion'
+        Value = 'Confirm deletion?'
+      end>
+    Left = 384
+    Top = 344
   end
 end
