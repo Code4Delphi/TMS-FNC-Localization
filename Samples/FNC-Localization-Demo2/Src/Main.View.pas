@@ -35,7 +35,7 @@ type
     lbWelcome: TLabel;
     btnRegisterCustomer: TButton;
     btnSetToBR: TButton;
-    TMSFNCLocalizationComboBox1: TTMSFNCLocalizationComboBox;
+    S: TTMSFNCLocalizationComboBox;
     btnOpenEditor: TButton;
     lbSelectLanguage: TLabel;
     TMSFNCLocalizationEditor1: TTMSFNCLocalizationEditor;
